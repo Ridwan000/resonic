@@ -57,7 +57,7 @@ body,.container{
 
 .dark{
     background-color: #eaeaec;
-    padding-bottom: 15rem;
+    padding-bottom: 10rem;
 }
 
 .float{
@@ -75,7 +75,7 @@ input{
 
 .lastSection{
     background:linear-gradient(  #04419d,#5a12cf);
-    height: 
+    height: auto;
     
 }
 
@@ -122,6 +122,8 @@ input{
     width: 100%;
     grid-template-columns:repeat(3,1fr);
     margin-left: 2rem;
+    gap: 1rem;
+    
 }
 .sheu{
     width: 150px;
@@ -151,6 +153,7 @@ justify-content: space-around;
         
         width: auto;
         margin:10px auto;
+        padding: 0px 5px;
         
         
     }
@@ -164,6 +167,8 @@ justify-content: space-around;
         display: block;
         margin-left: 0px;
         margin-bottom: 5rem;
+        
+        
     }
     .man{
         display: grid;
@@ -198,7 +203,7 @@ justify-content: space-around;
     
     .bgg{
         
-        
+        padding-bottom: rem;
         width: 100%;
     }
 
