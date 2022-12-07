@@ -27,9 +27,7 @@ body,.container{
     margin-top: 5rem;
     
 }
-.lead{
-    text-justify: auto;
-}
+
 
 .rectangle{
     margin: 5rem ;
@@ -59,22 +57,152 @@ body,.container{
 
 .dark{
     background-color: #eaeaec;
+    padding-bottom: 15rem;
 }
-.eemail{
-    padding: 1rem;
-}
+
 .float{
     margin-left: 3.5rem;
 }
 
+label{
+    margin-left: 5rem;
+}
+input{
+    border-radius: 0px 5px 5px 0px;
+}
 
 
 
 .lastSection{
     background:linear-gradient(  #04419d,#5a12cf);
+    height: 
     
 }
 
-.rrr{
-    text-align: justify;
+.eemail{
+    padding: 7px;
+}
+
+.rectangle{
+    height: 7rem;
+    width: 12rem;
+    border: 2px solid red;
+}
+
+
+.mother{
+    display: flex;
+}
+
+
+.father{
+    display: flex;
+}
+.parent{
+    display: flex;
+}
+
+.video{
+    background-color:white;
+    
+    text-align: center;
+    
+
+}
+.design{
+    width: 12rem;
+    height: auto;
+}
+.redd{
+    padding-right: 3rem;
+}
+
+.alex{
+    display: grid;
+    width: 100%;
+    grid-template-columns:repeat(3,1fr);
+    margin-left: 2rem;
+}
+.sheu{
+    width: 150px;
+    height: 100px;
+   
+}
+
+.woww{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    margin-left: 1rem;
+justify-content: space-around;
+    
+}
+
+.shwu{
+    
+    flex-basis: 30%;
+   
+}
+
+
+@media only screen and (max-width:900px) {
+    .sheu{
+       
+        
+        width: auto;
+        margin:10px auto;
+        
+        
+    }
+
+    .deliver{
+        margin: auto;
+        padding: 0px auto;
+        width: 350px;
+    }
+    .alex{
+        display: block;
+        margin-left: 0px;
+        margin-bottom: 5rem;
+    }
+    .man{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .first{
+        
+        padding: 0px 5rem;
+    }
+
+    .imagee{
+        justify-content: center;
+        width: 50px;
+    }
+    .always{
+        text-align: center;
+
+    }
+    .boxx{
+        margin-left: 3rem;
+    }
+    .touch{
+        text-align: center;
+    }
+
+    .explore{
+        
+        padding: 0px 5px;
+        margin-bottom: 2rem;
+    }
+    
+    .bgg{
+        
+        
+        width: 100%;
+    }
+
+    .alwaystwo{
+        columns: -12px;
+    }
 }
